@@ -17,7 +17,7 @@ Le joueur se retrouve sur un plaque en verre situé au dessus du labyrinthe et p
 
 # Réalisation
 
-Le labyrinthe a été créé sous Unreal et exporté en un seul mesh. Les matériaux utilisés sont ceux proposés par le starter content d'Unreal Engine et l'intégration du gameplay s'est fait à l'aide des objets avec lesquels on peut interagir deja présent dans la scène lors de la création d'un projet VR. En l'occurence, il s'agit du cube controlleur qui avait deja le Blueprint permettant de l'attraper avec les controlleurs. Nous avons lié ce cube au modèle 3D du labyrinthe pour pouvoir le manipuler en répercutant les rotations du cube sur le labyrinthe. Le joueur n'a aucune emprise sur la sphère. Seule la gravité fait la fait bouger due à l'inclinaison du labyrinthe.
+Le labyrinthe a été créé sous Unreal et exporté en un seul mesh. Les matériaux utilisés sont ceux proposés par le starter content d'Unreal Engine et l'intégration du gameplay s'est fait à l'aide des objets avec lesquels on peut interagir deja présent dans la scène lors de la création d'un projet VR. En l'occurence, il s'agit du cube controlleur qui avait deja le Blueprint permettant de l'attraper avec les controlleurs. Nous avons lié ce cube au modèle 3D du labyrinthe pour pouvoir le manipuler en répercutant les rotations du cube sur le labyrinthe. Le joueur n'a aucune emprise sur la sphère. Seule la gravité la fait bouger grâce à l'inclinaison du labyrinthe.
 
 <img src="Content/Ressources/LevelBlueprint.PNG">
 
